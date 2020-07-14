@@ -1,0 +1,52 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Change hard drive on workstation 005",
+      "attention": false,
+      "date": "03-02-2020",
+      "tech": "Sam Smith"
+    },
+    {
+      "id": 2,
+      "message": "Workstation 007 not posting",
+      "attention": true,
+      "date": "03-02-2020",
+      "tech": "John Doe"
+    },
+    {
+      "id": 3,
+      "message": "Workstation 003 needs a new nic card",
+      "attention": true,
+      "date": "03-02-2020",
+      "tech": "Edward Jones"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 2,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "1d": 3,
+      "firstName": "Edward",
+      "lastName": "Jones"
+    },
+    {
+      "firstName": "William",
+      "lastName": "Sans",
+      "id": 3
+    },
+    {
+      "firstName": "Willie",
+      "lastName": "James",
+      "id": 4
+    }
+  ]
+}
