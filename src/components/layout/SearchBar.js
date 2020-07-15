@@ -8,7 +8,7 @@ import React from 'react';
                 <form>
                     <div className="input-field">
                         <input id="search" type="search" required/>
-                        <label className="label-icon" htmlfor="search">
+                        <label className="label-icon" htmlFor="search">
                             <i className="material-icons">search</i>
                         </label>
                     </div>
