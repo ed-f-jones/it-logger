@@ -1,7 +1,11 @@
 import React, {useState} from 'react';
 import M from 'materialize-css/dist/js/materialize.min.js';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import { addLog } from '../../actions/logActions';
 
- const AddLogModal = () => {
+
+ const AddLogModal = ({ addLog }) => {
     const [message, setMessage] = useState('');
     const [attention, setAttention] = useState(false);
     const [tech, setTech] = useState('');
@@ -10,7 +14,15 @@ import M from 'materialize-css/dist/js/materialize.min.js';
         if(message === '' || tech === '') {
             M.toast({html: 'Please enter a message or a Technician'});
         } else {
-            console.log(message, tech, attention);
+            const newLog = {
+                message,
+                attention,
+                tech,
+                date: new Date()
+            };
+
+            addLog(newLog);
+            M.toast({html: `Log added by ${tech}`});
 
             setMessage('');
             setTech('');
@@ -37,8 +49,7 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 
                 <div className="row">
                     <div className="input-field">
-                        <select name="tech" value="tech" className="browser-default" onChange={e => 
-                        setTech(e.target.value)}>
+                        <select name="tech" value={tech} className="browser-default" onChange={e => setTech(e.target.value)}>
                             <option value="" disabled>Select a Technician</option>
                             <option value="John Doe"> John Doe</option>
                             <option value="Sam Smith">Sam Smith</option>
@@ -67,9 +78,13 @@ import M from 'materialize-css/dist/js/materialize.min.js';
     )
 };
 
+AddLogModal.propTypes = {
+    addLog: PropTypes.func.isRequired
+}
+
 const modalStyle = {
     width: '75%',
     height: '75%'
-}
+};
 
-export default AddLogModal;
+export default connect(null, { addLog })(AddLogModal);

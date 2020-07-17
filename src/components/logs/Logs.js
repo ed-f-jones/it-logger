@@ -1,4 +1,4 @@
-  import React, { useState, useEffect}from 'react';
+  import React, { useEffect }from 'react';
   import LogItem from './LogItem';
   import Preloader from '../layout/Preloader';
   import { connect } from 'react-redux';
@@ -29,10 +29,12 @@ const Logs = ({ log : { logs, loading}, getLogs }) => {
 
 Logs.propTypes = {
     log: PropTypes.object.isRequired,
+    getLogs: PropTypes.func.isRequired
 }
 
 const mapStateToProps = state => ({
     log: state.log
+
 })
 
 

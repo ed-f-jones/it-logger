@@ -1,25 +1,18 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Change hard drive on workstation 005",
+      "message": "Change network cables on console 023",
       "attention": false,
-      "date": "03-02-2020",
-      "tech": "Sam Smith"
+      "tech": "John Doe",
+      "date": "2020-07-16T22:55:33.609Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "message": "Workstation 007 not posting",
+      "message": "hard drive failure at console 125",
       "attention": true,
-      "date": "03-02-2020",
-      "tech": "John Doe"
-    },
-    {
-      "id": 3,
-      "message": "Workstation 003 needs a new nic card",
-      "attention": true,
-      "date": "03-02-2020",
-      "tech": "Edward Jones"
+      "tech": "Edward Jones",
+      "date": "2020-07-16T22:56:33.873Z",
+      "id": 2
     }
   ],
   "techs": [
@@ -37,11 +30,6 @@
       "1d": 3,
       "firstName": "Edward",
       "lastName": "Jones"
-    },
-    {
-      "firstName": "Willie",
-      "lastName": "James",
-      "id": 4
     }
   ]
 }
