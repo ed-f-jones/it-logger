@@ -1,17 +1,17 @@
 {
   "logs": [
     {
-      "message": "Change network cables on console 023",
+      "message": "Changed monitors on console 019",
       "attention": false,
-      "tech": "John Doe",
-      "date": "2020-07-16T22:55:33.609Z",
+      "tech": "Edward Jones",
+      "date": "2020-07-17T14:56:25.849Z",
       "id": 1
     },
     {
-      "message": "hard drive failure at console 125",
-      "attention": true,
-      "tech": "Edward Jones",
-      "date": "2020-07-16T22:56:33.873Z",
+      "message": "workstation 016 fully updated",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2020-07-17T15:11:52.484Z",
       "id": 2
     }
   ],
