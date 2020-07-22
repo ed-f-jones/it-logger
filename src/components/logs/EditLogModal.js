@@ -22,15 +22,15 @@ import { updateLog } from '../../actions/logActions';
             M.toast({html: 'Please enter a message or a Technician'});
         } else {
             const updLog = {
-                iD: current.id,
+                id: current.id,
                 message,
                 attention,
                 tech,
                 date: new Date()
-            }
+            };
 
             updateLog(updLog);
-            M.toast({html: `Log update by ${tech}`});
+            M.toast({html: `Log updated by ${tech}`});
 
             // clear out inputs
             setMessage('')

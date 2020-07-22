@@ -8,11 +8,46 @@
       "id": 1
     },
     {
-      "message": "workstation 016 fully updated",
+      "id": 2,
+      "message": "workstation 016 monitor replaced",
       "attention": false,
       "tech": "Sam Smith",
-      "date": "2020-07-17T15:11:52.484Z",
-      "id": 2
+      "date": "2020-07-22T20:06:26.907Z"
+    },
+    {
+      "id": 3,
+      "message": "workstation 17 needs a software update",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2020-07-22T20:11:52.336Z"
+    },
+    {
+      "message": "cleared virus on console 069",
+      "attention": false,
+      "tech": "Edward Jones",
+      "date": "2020-07-21T04:02:53.041Z",
+      "id": 4
+    },
+    {
+      "message": "cleared virus on console 045",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2020-07-21T04:18:42.382Z",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "message": "workstation 013 mouse has been replaced",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2020-07-22T20:08:27.121Z"
+    },
+    {
+      "message": "workstation 035 in down",
+      "attention": true,
+      "tech": "Edward Jones",
+      "date": "2020-07-22T20:13:18.198Z",
+      "id": 7
     }
   ],
   "techs": [
@@ -27,7 +62,7 @@
       "lastName": "Doe"
     },
     {
-      "1d": 3,
+      "id": 3,
       "firstName": "Edward",
       "lastName": "Jones"
     }
