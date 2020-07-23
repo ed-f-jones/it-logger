@@ -48,6 +48,27 @@
       "tech": "Edward Jones",
       "date": "2020-07-22T20:13:18.198Z",
       "id": 7
+    },
+    {
+      "message": "changed server cables on server 017",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-07-22T20:59:00.295Z",
+      "id": 8
+    },
+    {
+      "message": "workstation 099 has a ram failure",
+      "attention": true,
+      "tech": "Edward Jones",
+      "date": "2020-07-22T21:05:36.093Z",
+      "id": 9
+    },
+    {
+      "message": "Replaced hard drive in workstation 098",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2020-07-22T21:11:45.443Z",
+      "id": 10
     }
   ],
   "techs": [
