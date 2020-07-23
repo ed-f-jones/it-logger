@@ -51,11 +51,6 @@
       "id": 3,
       "firstName": "Edward",
       "lastName": "Jones"
-    },
-    {
-      "firstName": "James",
-      "lastName": "Winston",
-      "id": 4
     }
   ]
 }
